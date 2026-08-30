@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你好，世界 · 夜想集</title>
+  <meta name="description" content="博客的第一篇文章。为什么又双叒叕开始写博客，以及这里以后会写些什么。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌙</text></svg>">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+    (function(){var s=localStorage.getItem("theme");var d=window.matchMedia("(prefers-color-scheme: dark)").matches;document.documentElement.setAttribute("data-theme",s||(d?"dark":"light"));})();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-title" href="/">夜想集</a>
+      <nav class="site-nav">
+        <a href="/">文章</a>
+        <a href="/about.html">关于</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="切换主题" title="切换主题">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="post">
+      <header class="post-header">
+        <h1>你好，世界</h1>
+        <div class="post-meta">2026-02-13 · 随笔</div>
+      </header>
+      <div class="post-body">
+        <p>每个程序员的第一行输出几乎都是 <code>Hello, World</code>，所以博客的第一篇文章，也用这个名字好了。</p>
+
+        <h2>为什么又开始写博客</h2>
+        <p>说来惭愧，这已经不是我第一次搭博客了。WordPress 搭过，Hexo 搭过，Hugo 也搭过，结局都一样：折腾三天框架，写了两篇文章，然后服务器到期、主题过时、Node 版本对不上，最后连后台密码都想不起来。</p>
+        <p>但这次有点不一样。我想明白了一件事：<strong>博客的意义不在于用了多酷的技术栈，而在于持续地写。</strong>所以这次我选了一个最不可能"坏掉"的方案——纯静态 HTML + Cloudflare Pages，没有数据库，没有构建流程，没有依赖地狱。只要 Cloudflare 不倒闭，这个站就会一直在这里。</p>
+
+        <h2>这里会写什么</h2>
+        <ul>
+          <li><strong>技术笔记</strong>：踩过的坑、好用的工具、一些奇奇怪怪的自动化玩法；</li>
+          <li><strong>项目日志</strong>:正在做的小东西，做成了是记录，做砸了是教训；</li>
+          <li><strong>胡思乱想</strong>：不方便发在朋友圈里的那些。</li>
+        </ul>
+
+        <h2>更新频率</h2>
+        <p>不做承诺。写博客这件事，一旦变成 KPI 就不好玩了。想起来就写，写得动就发。</p>
+
+        <blockquote>
+          <p>种一棵树最好的时间是十年前，其次是现在。写博客也是。</p>
+        </blockquote>
+
+        <p>那么，开始吧。🌙</p>
+      </div>
+      <a class="back-link" href="/">← 返回首页</a>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> <a href="https://www.yexiangha.top" target="_blank" rel="noopener">Yexiangha</a> · 由 <a href="https://pages.cloudflare.com" target="_blank" rel="noopener">Cloudflare Pages</a> 强力驱动</p>
+    </div>
+  </footer>
+
+  <script src="/assets/main.js"></script>
+</body>
+</html>

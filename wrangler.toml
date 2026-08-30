@@ -1,0 +1,11 @@
+name = "blog"
+compatibility_date = "2026-08-29"
+
+# 纯静态资产 Worker：无需脚本，直接服务当前目录
+# .assetsignore 会排除 .git，避免源码/凭据泄露到线上
+assets = { directory = "." }
+
+# Worker 自定义域：自动创建 DNS 记录并签发证书（无需 dns:write 权限）
+routes = [
+  { pattern = "blog.yexiangha.top", custom_domain = true }
+]

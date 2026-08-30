@@ -1,0 +1,3 @@
+# wrangler 静态资产忽略文件（语法同 .gitignore）
+# 排除 git 元数据，避免源码/凭据泄露到线上
+.git

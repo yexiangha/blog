@@ -1,0 +1,16 @@
+[
+  {
+    "title": "用 Cloudflare Pages 零成本搭一个静态博客",
+    "date": "2026-02-13",
+    "summary": "从写好第一个 HTML 到绑定自己的域名，全程不花一分钱、不用自己维护服务器。这篇记录了整个搭建过程。",
+    "url": "/posts/cloudflare-pages-blog.html",
+    "tags": ["技术", "Cloudflare"]
+  },
+  {
+    "title": "你好，世界",
+    "date": "2026-02-13",
+    "summary": "博客的第一篇文章。为什么又双叒叕开始写博客，以及这里以后会写些什么。",
+    "url": "/posts/hello-world.html",
+    "tags": ["随笔"]
+  }
+]

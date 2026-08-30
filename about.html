@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于 · 夜想集</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌙</text></svg>">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+    (function(){var s=localStorage.getItem("theme");var d=window.matchMedia("(prefers-color-scheme: dark)").matches;document.documentElement.setAttribute("data-theme",s||(d?"dark":"light"));})();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-title" href="/">夜想集</a>
+      <nav class="site-nav">
+        <a href="/">文章</a>
+        <a href="/about.html">关于</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="切换主题" title="切换主题">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="post">
+      <header class="post-header">
+        <h1>关于</h1>
+      </header>
+      <div class="post-body">
+        <h2>我</h2>
+        <p>Yexiangha，一个喜欢折腾软件和自动化的人。白天写代码，晚上想想有的没的——所以这个博客叫「夜想集」。</p>
+
+        <h2>这个站</h2>
+        <p>纯静态页面，手写的 HTML/CSS/JS，托管在 Cloudflare Pages 上。没有评论区（想交流可以发邮件），没有统计脚本，没有广告。</p>
+
+        <h2>联系</h2>
+        <ul>
+          <li>邮箱：<a href="mailto:yexiangha@163.com">yexiangha@163.com</a></li>
+        </ul>
+      </div>
+      <a class="back-link" href="/">← 返回首页</a>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> <a href="https://www.yexiangha.top" target="_blank" rel="noopener">Yexiangha</a> · 由 <a href="https://pages.cloudflare.com" target="_blank" rel="noopener">Cloudflare Pages</a> 强力驱动</p>
+    </div>
+  </footer>
+
+  <script src="/assets/main.js"></script>
+</body>
+</html>

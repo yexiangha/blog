@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>夜想集 · Yexiangha's Blog</title>
+  <meta name="description" content="一个安静的角落，记录代码、生活与胡思乱想。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌙</text></svg>">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-title" href="/">夜想集</a>
+      <nav class="site-nav">
+        <a href="/">文章</a>
+        <a href="/about.html">关于</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="切换主题" title="切换主题">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>你好，这里是夜想集。</h1>
+      <p>一个安静的角落，记录代码、生活与胡思乱想。</p>
+    </section>
+
+    <section id="post-list" class="post-list" aria-live="polite">
+      <p class="loading">正在加载文章…</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> <a href="https://www.yexiangha.top" target="_blank" rel="noopener">Yexiangha</a> · 由 <a href="https://pages.cloudflare.com" target="_blank" rel="noopener">Cloudflare Pages</a> 强力驱动</p>
+    </div>
+  </footer>
+
+  <script src="/assets/main.js"></script>
+  <script>renderPostList();</script>
+</body>
+</html>
